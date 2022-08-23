@@ -1,0 +1,11 @@
+.block1{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    height: 172px;
+    top: 198px;
+    background: linear-gradient(89.93deg, #121C32 9.67%, #0C1322 50.9%, #131D32 94.17%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}

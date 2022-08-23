@@ -1,0 +1,176 @@
+.modal_block{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal_block_active{
+    display: flex;
+}
+.modal_block_content{
+    background: #131D32;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 18px;
+    width: 674px;
+    height: 248px;
+    padding: 25px;
+}
+.modal_block_content_mobile{
+}
+.modal_block_header_block_mobile{
+    display: flex;
+    justify-content: space-between;
+}
+.modal_block_header{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #70BF50;
+}
+.modal_block_header_mobile{
+    background: #131D32;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #70BF50;
+    height: 55px;
+    width: 248px;
+    text-align: center;
+    padding: 12px;
+}
+.modal_block_button{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.9);
+    background: #131D32;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    height: 56px;
+    width: 180px;
+    cursor: pointer;
+}
+.modal_block_button_mobile{
+    cursor: pointer;
+    background: linear-gradient(89.96deg, #455B3C 12.11%, #16280F 51.45%, #26411B 85.24%);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0px 0px 84px rgba(33, 58, 24, 0.55);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.9);
+    width: 264px;
+    height: 50px;
+}
+.modal_block_img{
+    height: 56px;
+    width: 56px;
+    background: #131D32;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 5px;
+    margin: 0 0 0 -1px;
+}
+.modal_block_metamask_img_active{
+    border: 1px solid #FF8541;
+}
+.modal_block_walletConnect_img_active{
+    border: 1px solid #4E8AFF;
+}
+.modal_block_metamask{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.9);
+    background: #131D32;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    height: 56px;
+    width: 294px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-right: 3px solid #FF8541;
+}
+.modal_block_metamask_active{
+    border: 1px solid #FF8541;
+    border-right: 3px solid #FF8541;
+}
+.modal_block_walletConnect{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.9);
+    background: #131D32;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    height: 56px;
+    width: 294px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-right: 3px solid #4E8AFF;
+}
+.modal_block_walletConnect_active{
+    border: 1px solid #4E8AFF;
+    border-right: 3px solid #4E8AFF;
+}
+.modal_block_block_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 130px;
+    margin: 17px 0px 0 0px;
+}
+.modal_block_block_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.modal_block_button_text{
+    padding-left: 15px;
+}
+.modal_block_exit{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    height: 40px;
+    padding: 5px;
+    width: 40px;
+    cursor: pointer;
+}
+.modal_block_exit_mobile{
+    background: #131D32;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    cursor: pointer;
+    height: 55px;
+    width: 55px;
+    color: #70BF50;
+    padding: 9px;
+}
+.modal_block_block_3{
+    display: flex;
+    justify-content: space-between;
+}
+.modal_block_block_4_mobile{
+    background: #131D32;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    width: 308px;
+    height: 236px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,148 @@
+.blocks_data{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.block_data_1{
+    box-sizing: border-box;
+    //position: absolute;
+    width: 512px;
+    //height: 687px;
+    border: 1px solid rgba(255, 255, 255, 0.02);
+    border-radius: 55px;
+    margin: 20px 10px 10px 10px;
+    z-index: 1;
+}
+.block_data_2{
+    box-sizing: border-box;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 40px;
+    width: 474px;
+    //height: 645px;
+    top: 18px;
+    left: 18px;
+    margin: 0 0 37px 0;
+}
+.block_data_3{
+    box-sizing: border-box;
+    position: relative;
+    background: #131D32;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 18px;
+    width: 432px;
+    //height: 599px;
+    top: 18px;
+    left: 18px;
+    margin: 0 0 37px 0;
+}
+.block_data_block_text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.block_data_block_text_2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.block_data_block_text2{
+}
+.block_data_text1{
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 45px;
+    color: #70BF50;
+}
+.block_data_text2{
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: rgba(112, 191, 80, 0.35);
+    filter: blur(44px);
+}
+.block_data_q{
+    height: 40px;
+    float: right;
+    cursor: pointer;
+    z-index: 5;
+}
+.block_data_data{
+    width: calc(100% - 60px);
+    margin: auto;
+}
+.block_data_block2{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 40px 0px;
+}
+.block_data_block3{
+    display: flex;
+    flex-direction: column;
+}
+.button1{
+    background: rgba(83, 83, 83, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    width: 170px;
+    height: 50px;
+    cursor: pointer;
+}
+.button2{
+    background: linear-gradient(89.96deg, #131D32 12.11%, #0C1323 48.63%, #131D32 92.55%);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 68px;
+    margin: 0 0 40px 0;
+    cursor: pointer;
+}
+.button_connect_wallet{
+    background: linear-gradient(89.96deg, #455B3C 12.11%, #264819 48.63%, #16280F 92.55%);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0px 0px 87px rgba(35, 65, 23, 0.25);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 68px;
+    margin: -10px 0 30px 0;
+    cursor: pointer;
+}
+.button_approve{
+    background: linear-gradient(89.96deg, #314077 12.11%, #CBC6BC 92.55%);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0px 0px 36px rgba(120, 126, 151, 0.25);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 68px;
+    margin: -10px 0 30px 0;
+    cursor: pointer;
+}

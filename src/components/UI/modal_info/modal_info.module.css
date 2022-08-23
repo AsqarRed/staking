@@ -1,0 +1,192 @@
+.modal_block{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal_block_active{
+    display: flex;
+}
+.modal_block_content{
+    background: #131D32;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 18px;
+    width: 674px;
+    height: 228px;
+    padding: 25px;
+}
+.modal_block_content_mobile{
+}
+.modal_block_header_block_mobile{
+    display: flex;
+    justify-content: space-between;
+}
+.modal_block_header{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #70BF50;
+}
+.modal_block_header_mobile{
+    background: #131D32;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #70BF50;
+    height: 55px;
+    width: 248px;
+    text-align: center;
+    padding: 12px;
+}
+.modal_block_button{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    height: 49px;
+    width: 155px;
+    cursor: pointer;
+    background: linear-gradient(89.94deg, #171D2C 7.46%, #12254D 52.86%, #171E2C 99.94%);
+}
+.modal_block_img{
+    height: 56px;
+    width: 56px;
+    background: #131D32;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 5px;
+    margin: 0 0 0 -1px;
+}
+.modal_block_block_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 130px;
+    margin: 17px 0px 0 0px;
+}
+.modal_block_block_2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 130px;
+}
+.modal_block_button_text{
+    padding-left: 15px;
+}
+.modal_block_exit{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    height: 40px;
+    padding: 5px;
+    width: 40px;
+    cursor: pointer;
+}
+.modal_block_exit_mobile{
+    background: #131D32;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    cursor: pointer;
+    height: 55px;
+    width: 55px;
+    color: #70BF50;
+    padding: 9px;
+}
+.modal_block_block_3{
+    display: flex;
+    justify-content: space-between;
+}
+.modal_block_block_4_mobile{
+    background: #131D32;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    width: 308px;
+    height: 154px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+}
+.modal_block_button_block{
+    display: flex;
+    width: 330px;
+    justify-content: space-between;
+}
+.modal_block_input{
+    background: #131D32;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px 0 0 8px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    height: 52px;
+    width: 522px;
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+}
+.modal_block_input_mobile{
+    background: #131D32;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px 0 0 8px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    height: 52px;
+    width: 200px;
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+}
+.modal_block_input_Ceji{
+    background: #131D32;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0 8px 8px 0;
+    height: 52px;
+    width: 100px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+.modal_block_input_Ceji_mobile{
+    background: #131D32;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0 8px 8px 0;
+    height: 52px;
+    width: 80px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+.modal_block_input_block{
+    display: flex;
+}
+.modal_block_button_block_mobile{
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+}
